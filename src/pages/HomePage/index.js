@@ -19,6 +19,7 @@ const HomePage = () => {
 				<label htmlFor=''>Email:</label>
 				<input type='text' />
 			</div>
+			<div className='test'></div>
 		</div>
 	);
 };
