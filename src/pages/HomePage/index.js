@@ -1,17 +1,10 @@
-// import emmasLogo from '../../assets/logo.png';
+import Countdown from '../../Components/Countdown';
 import './index.css';
 
 const HomePage = () => {
 	return (
 		<div className='container'>
-			<h2>Coming Soon</h2>
-			<h1>
-				Emma's <span>Resin Shop</span>
-				<div className='day'></div>
-				<div className='hour'></div>
-				<div className='minute'></div>
-				<div className='day'></div>
-			</h1>
+			<Countdown />
 			<div className='tagline'>
 				Get on the VIP list to be the first to know when we launch!
 			</div>
