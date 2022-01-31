@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background: #fefefe url(../../assets/background1.jpeg);
+	background-blend-mode: darken;
+	background-size: contain;
+	background-position: center;
+}
+
+.container {
+	display: flex;
+	padding: 2em;
+	align-items: center;
+	flex-direction: column;
+	min-width: 375px;
+	width: 80vw;
+	height: 50vh;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 10px;
+	backdrop-filter: blur(30px);
+	box-shadow: inset 5px 5px 10px rgba(255, 255, 255, 0.7),
+		inset -3px -3px 10px rgba(255, 255, 255, 7),
+		3px 3px 30px rgba(45, 45, 45, 0.2), -5px -5px 30px rgba(45, 45, 45, 0.2);
+}
+
+h2 {
+	font-size: 2rem;
+	font-weight: 700;
+	color: #000;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+h1 {
+	font-size: 4rem;
+	font-weight: 700;
+	color: #000;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.email-input {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0.5em;
+	border-radius: 10px;
+	width: 400px;
+	font-size: 1.5em;
+	background: grey;
+}
+
+label {
+	font-size: 1em;
+	font-weight: 700;
+	color: #000;
+	margin: 0 0.5em 0 0;
+}
+
+input {
+	width: 100%;
+	background: #e3e3e3;
+	outline: none;
+	border: none;
+	font-size: 0.8em;
+	padding: 0.5em;
+	border-radius: 10px;
+	box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.3),
+		inset -3px -3px 5px rgba(0, 0, 0, 0.3);
+}
