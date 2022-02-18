@@ -1,8 +1,11 @@
 import { useEffect, useState } from 'react';
 
 const calculateTimeLeft = () => {
-	let year = new Date().getFullYear();
-	let difference = +new Date(`10/01/${year}`) - +new Date();
+	// get current year
+	const year = new Date().getFullYear();
+	console.log(year);
+	let difference = +new Date(`03/15/${year}`) - +new Date();
+	console.log('difference', difference);
 
 	let timeLefty = {};
 

@@ -1,4 +1,4 @@
-import Countdown from '../../Components/Countdown';
+import Countdown from '../../Components/Countdown/Countdown';
 import './index.css';
 
 const HomePage = () => {
