@@ -8,16 +8,16 @@ const Product = ({ product }) => {
 				<Card.Img src={product.image} variant='top' />
 			</a>
 			<Card.Body>
-				<a href='`/product/${product._id}'>
-					<Card.Title as='div'>
+				{/* <a href={/product/${product._id}'> */}
+				{/* <Card.Title as='div'>
 						<strong>{product.name}</strong>
 					</Card.Title>
-				</a>
+				</a> */}
 
 				<Card.Text as='div'>
 					<div className='my-3'>
 						<Rating value={product.rating} text={product.numReviews} />
-						{product.rating} from {product.numReviews} reviews
+						{/* {product.rating} from {product.numReviews} reviews */}
 					</div>
 				</Card.Text>
 
